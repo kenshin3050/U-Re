@@ -1,0 +1,28 @@
+@media (max-width:390px){
+    *{
+        box-sizing: border-box;
+           }
+         header{
+             width: 90%;
+
+         }
+           
+           .intro {
+               flex-direction: column;
+               display: flex;
+            justify-content: center;
+            align-items: center;
+           }
+          .container{
+            height: 450px;
+          }
+          .text{
+              text-align: center;
+          }
+          .memory{
+              width: 100%;
+          }
+          .message p{
+              text-align: center;
+          }
+}
