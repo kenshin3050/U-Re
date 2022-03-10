@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.header-top{
+    height: 80px;
+    width: 80px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.nav ul{
+    float: right;
+    padding-top: 38px;
+    
+} 
+.nav li{
+    float: left;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    
+}
+.reiya{
+    color: #778899;
+}
+.kurumi{
+    color:#B0C4DE ;
+}
+.container{
+    display: table;
+    opacity: 0.8;
+    background-size:100%;
+    min-width: 100%;
+    height: 500px;
+    width: 100%
+}
+.container-top{
+    font-size: 60px;
+    color: whitesmoke;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.intros-top{
+    padding-top: 40px;
+    text-align: center;
+}
+.intros h1{
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+}
+.reiya-intro{
+    height: 100px;
+    width: 100px;
+}
+.text h3{
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    padding-bottom:2px;
+    font-size: 30px;
+}
+.text p{
+    font-family: "M PLUS Rounded 1c"; 
+}
+.text a{
+    color: #DCDCDC;
+}
+.text{
+    padding-left: 30px;
+}
+.intro{
+   display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.kurumi-intro{
+    height: 100px;
+    width: 100px;
+}
+.memory-top{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.memories h1{
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+}
+.memory-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.memory{
+    flex: auto;
+    width: 30%;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+}
+.memory img{
+    border-radius: 8%;
+}
+.memory p{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+}
+footer{
+    background-color: #F5F5F5;
+}
+.footer-top {
+    padding-top: 50px;
+    text-align: center;
+}
+.footer-top h1{
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive
+}
+.message{
+    text-align: left;
+    padding-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+}
+
+.message p{
+    font-family: "M PLUS Rounded 1c"; 
+    padding-bottom: 15px;
+}
+.message h2{
+    padding-right: 50px;
+    float: right;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive
+}
